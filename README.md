@@ -26,13 +26,13 @@ Template Query:
 INSERT INTO ips VALUES ($start_id, 9, 0, 0, '$ip', 1, '', 0, NULL, '', 0, NULL);"
 
 Sample query to add 7 ipv6 addresses:
-INSERT INTO ips VALUES (501, 9, 0, 0, '2a0e:0:1:3015:8000::3620', 1, '', 0, NULL, '', 0, NULL);
+<INSERT INTO ips VALUES (501, 9, 0, 0, '2a0e:0:1:3015:8000::3620', 1, '', 0, NULL, '', 0, NULL);
 INSERT INTO ips VALUES (502, 9, 0, 0, '2a0e:0:1:3015:8000::3621', 1, '', 0, NULL, '', 0, NULL);
 INSERT INTO ips VALUES (503, 9, 0, 0, '2a0e:0:1:3015:8000::3622', 1, '', 0, NULL, '', 0, NULL);
 INSERT INTO ips VALUES (504, 9, 0, 0, '2a0e:0:1:3015:8000::3623', 1, '', 0, NULL, '', 0, NULL);
 INSERT INTO ips VALUES (505, 9, 0, 0, '2a0e:0:1:3015:8000::3624', 1, '', 0, NULL, '', 0, NULL);
 INSERT INTO ips VALUES (506, 9, 0, 0, '2a0e:0:1:3015:8000::3625', 1, '', 0, NULL, '', 0, NULL);
-INSERT INTO ips VALUES (507, 9, 0, 0, '2a0e:0:1:3015:8000::3626', 1, '', 0, NULL, '', 0, NULL);
+INSERT INTO ips VALUES (507, 9, 0, 0, '2a0e:0:1:3015:8000::3626', 1, '', 0, NULL, '', 0, NULL);>
 
 +if you want to create these queries you can add all ipv6 addresses into the  ipv6_list.txt file and save it.
 +then run ipv6-virt.sh script to generate the queries that you want.
