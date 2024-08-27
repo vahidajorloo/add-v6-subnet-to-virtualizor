@@ -7,7 +7,7 @@ apt install mysql-client-core-8.0
 
 + then find database password from universal.php file:
 
-nano /usr/local/virtualizor/scripts/universal.php
+nano /usr/local/virtualizor/universal.php
 
 + after finding the password connect to the database:
 
